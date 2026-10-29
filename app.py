@@ -71,7 +71,9 @@ Task: Convert natural language into SQL for the demo.db database.
 {TABLES_INFO}
 
 Important rules:
-1. Return ONLY the SQL query, without explanations and code markers
+1. You must output ONLY the raw SQL query. Do not output any explanations,
+   warnings, safety ratings, or code block markers.
+   Start your answer directly with SELECT, INSERT, UPDATE, or DELETE.
 2. Use correct table and column names from the schema above
 3. Use WHERE parameters for filtering
 4. Use GROUP BY for aggregations when needed
