@@ -44,10 +44,9 @@ A Streamlit web application that converts natural language into SQL queries and 
 
 ## Example
 
-**Natural language query:** "Сколько клиентов из Москвы?"
+**Natural language query:** "How many clients are from New York?"
 
 **Resulting SQL:**
 ```sql
-SELECT COUNT(*) FROM clients WHERE city = 'Москва'
+SELECT COUNT(*) FROM clients WHERE city = 'New York'
 ```
- 
