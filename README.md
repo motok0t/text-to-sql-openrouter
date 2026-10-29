@@ -50,3 +50,4 @@ A Streamlit web application that converts natural language into SQL queries and 
 ```sql
 SELECT COUNT(*) FROM clients WHERE city = 'Москва'
 ```
+ 
