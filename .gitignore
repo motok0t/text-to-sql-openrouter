@@ -1,13 +1,13 @@
-# Виртуальное окружение
+# Virtual environment
 venv/
 __pycache__/
 *.pyc
 
-# Секреты
+# Secrets
 .streamlit/secrets.toml
 
-# Локальная база данных (её может создать любой пользователь запуском setup_db.py)
+# Local database (can be created by running setup_db.py)
 demo.db
 
-# Системные файлы
+# System files
 .DS_Store
